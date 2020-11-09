@@ -1,10 +1,19 @@
-  .navbar-main {   
-    color: #00c92b;
+  .nav-main {   
     z-index: 9999;
     width: 100%;
+    margin-left: 45%;
   }
-   
   
+  .nav a {
+      font-size: 20px;
+      font-weight: 550;
+      letter-spacing: 0;
+  }
+  
+  nav {
+      background-color: rgb(18, 187, 3);
+  }
+
   .clublogo {
       font-size: 30px;
   }
@@ -14,11 +23,12 @@
     position: fixed;
     top: 0;
     width: 100%
+    
   }
   
   /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
   .sticky + .content {
-    padding-top: 100px;
+    padding-top: 200px;
   }
   
   .nav-link {
@@ -147,7 +157,27 @@
       color:rgb(73, 73, 73);
   }
 
-  body {
+  .page-contents {
+      margin: 0 20% 0 20%;
+      height: 100vh;
       background-color: #5f5f5f;
   }
   
+  body {
+      background-image: url('../images/Pepega-Gif.gif');
+      background-repeat: repeat;
+  }
+
+  .intro-block {
+      background-color: rgb(23, 23, 23);
+      height: 70vh;
+      padding: 0 10% 10% 10%;
+  }
+  
+  .home-page-intro {
+    color:white;
+    font-size: 1.5em;
+    margin-left: 4%;
+    margin-right: 50%;
+    font-weight: 600;
+  }
